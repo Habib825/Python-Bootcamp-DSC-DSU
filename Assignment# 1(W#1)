@@ -1,0 +1,65 @@
+Q 1):
+
+	word = input("Enter your name:   ")
+
+	spaces = ""
+
+	for char in word:
+		print (spaces, char) 
+		spaces += "  "
+
+	return
+
+main()
+
+
+Q 2):
+
+roll_num1=int(input("Enter your roll num:  "))
+name1=input("Enter your name:  ")
+age1=float(input("Enter your age:   "))
+marks1=float(input("Enter your marks:   "))
+
+
+
+roll_num2=int(input("Enter your roll num:  "))
+name2=input("Enter your name:  ")
+age2=float(input("Enter your age:   "))
+marks2=float(input("Enter your marks:   "))
+
+
+roll_num3=int(input("Enter your roll num:  "))
+name3=input("Enter your name:  ")
+age3=float(input("Enter your age:   "))
+marks3=float(input("Enter your marks:   "))
+
+
+
+roll_num4=int(input("Enter your roll num:  "))
+name4=input("Enter your name:  ")
+age4=float(input("Enter your age:   "))
+marks4=float(input("Enter your marks:   "))
+
+if marks1>marks2 and marks1>marks3 and marks1>marks4:
+    print(roll_num1,name1,age1marks1)
+elif marks2>marks1 and marks2>marks3 and marks2>marks4:
+    print(roll_num2,name2,age2,marks2)
+elif marks3>marks1 and marks3>marks2 and marks3>marks4:   
+    print(roll_num3,name3,age3,marks3)
+elif marks4>marks1 and marks4>marks2 and marks4>marks3:
+    print(roll_num4,name4,age4,marks4)
+elif marks>100:
+    print("Please input valid marks:")
+
+
+Q 3):
+import time
+print("A hamster on the wheel
+")
+time.sleep(1)
+print("A hamster on the wheel
+")
+time.sleep(1)
+print("That's how it's feels tryin' to be real")
+time.sleep(1)
+print("These unrealistic expectations,…")
